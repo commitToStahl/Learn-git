@@ -4,12 +4,13 @@ import time
 
 def make_excuse():
 	excuses = [
-		"My Dog is sitting on my keyboard.",
+		"My Dog is sitting on my mouse.",
 		"I'm waiting for Mercury to be out of retrograde.",
 		"The WiFi is allergic to productivity.",
 		"I can't work without my lucky mug, and it's in the dishwasher.",
 		"I'm on a break. It's always break time somewhere!",
 		"My code needs to marinate overnight.",
+        
 		"My Snake ate the keyboard.",
 		"I'm waiting for inspiration to strike."
 	]
@@ -22,7 +23,8 @@ def fake_progress_bar(duration=5):
 		bar = '#' * (i + 1) + '-' * (duration - i - 1)
 		print(f"[{bar}] {percent:.1f}%", end='\r')
 		time.sleep(0.7)
-	print("[##########] 99.9% (Just a little more...)")
+	print("[##########] 99.8% (Just a little more...)")
+	print("[##########] 99.9% (Close)")
 	print("Oops! Something went wrong. Please try again later.\n")
 
 def motivational_quote():
