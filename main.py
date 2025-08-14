@@ -1,14 +1,16 @@
+##no rioght me an python program with more 50 lines of code and a funny one its one for documantation 3 functions and one main would be nice
 import random
 import time
 
 def make_excuse():
 	excuses = [
-		"My cat is sitting on my keyboard.",
+		"My Dog is sitting on my keyboard.",
 		"I'm waiting for Mercury to be out of retrograde.",
 		"The WiFi is allergic to productivity.",
 		"I can't work without my lucky mug, and it's in the dishwasher.",
 		"I'm on a break. It's always break time somewhere!",
 		"My code needs to marinate overnight.",
+		"My Snake ate the keyboard.",
 		"I'm waiting for inspiration to strike."
 	]
 	return random.choice(excuses)
