@@ -4,7 +4,7 @@ import time
 
 def make_excuse():
 	excuses = [
-		"My Dog is sitting on my mouse.",
+		"My Wife needs me.",
 		"I'm waiting for Mercury to be out of retrograde.",
 		"The WiFi is allergic to productivity.",
 		"I can't work without my lucky mug, and it's in the dishwasher.",
